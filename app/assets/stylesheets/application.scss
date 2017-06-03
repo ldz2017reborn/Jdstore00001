@@ -19,6 +19,34 @@
   @import "font-awesome";
   @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css);
   @import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.1/css/mdb.min.css);
+//-- welcome-index
+  .jumbotron {
+    background-image:url('http://localhost:3000/assets/header10-ed6dd80c12b232cd5c21559a43cbc0e63a7f7cab4735852f5517ab219e5745d0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 350px;
+  }
+
+  .title {
+    font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 80px;
+  }
+
+  .slogan {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: black;
+    top: 12px;
+  }
+
+  .lead {
+    margin-bottom: 60px;
+    text-align: center;
+    color: black;
+  }
 
 //-- product-index start
 .background
