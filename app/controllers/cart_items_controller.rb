@@ -9,6 +9,7 @@ class CartItemsController < ApplicationController
 
     flash[:warning] = "成功将 #{@product.title} 从购物车删除!"
     redirect_to :back
+  end
 
   def update
       @cart = current_cart
@@ -22,12 +23,12 @@ class CartItemsController < ApplicationController
      end
 
       redirect_to carts_path
-    end
+  end
 
     private
 
     def cart_item_params
       params.require(:cart_item).permit(:quantity)
     end
-  end
+
 end

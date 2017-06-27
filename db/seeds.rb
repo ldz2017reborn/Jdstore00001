@@ -15,3 +15,10 @@ u.password_confirmation = "123456"   # 最少要六码
 
 u.is_admin = true
 u.save
+
+Category.create(name: "家居")
+Category.create(name: "婚礼")
+Category.create(name: "节日")
+Category.create(name: "情侣")
+Category.create(name: "亲子")
+Category.create(name: "全部产品")

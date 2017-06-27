@@ -17,3 +17,190 @@
   @import "bootstrap-sprockets";
   @import "bootstrap";
   @import "font-awesome";
+  @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css);
+  @import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.3.1/css/mdb.min.css);
+//-- welcome-index
+  .jumbotron {
+    background-image:url('http://localhost:3000/assets/header10-ed6dd80c12b232cd5c21559a43cbc0e63a7f7cab4735852f5517ab219e5745d0.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 350px;
+  }
+
+  .title {
+    font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 80px;
+  }
+
+  .slogan {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: black;
+    top: 12px;
+  }
+
+  .lead {
+    margin-bottom: 60px;
+    text-align: center;
+    color: black;
+  }
+
+//-- product-index start
+.background
+{
+  background-color: #FCE4EC;
+}
+.product-content{
+  margin: 0 auto;
+}
+//-- product-index end
+
+//-- navbar start
+.navbar{
+  background-color: #FCE4EC;
+  margin-bottom: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #757575 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #90A4AE !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #757575 !important;
+    background-color: transparent!important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #44ABE7  ;
+    background-color: #B3E5FC!important;
+}
+
+.dropdown-menu {
+  background-color: #B3E5FC !important;
+}
+/* Dropdown links */
+.dropdown-menu li a {
+  color: #f5f5f5 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+  font-size: 15px;
+  color:  #323232 !important;
+  background-color: #B3E5FC !important;
+}
+//-- navbar end
+
+//-- flashes start
+.alert {
+  margin: 0;
+  border-radius: 0;
+}
+//-- flashes end
+
+//-- tab start
+.tab {
+	position: relative;
+	overflow: hidden;
+  padding-left: 0;
+	margin: 0;
+	width: 100%;
+  margin-left: 50px;
+
+	li {
+		float: left;
+		line-height: 38px;
+		overflow: hidden;
+		padding: 0;
+		position: relative;
+	}
+
+	a {
+    font-size: 18px;
+		// background-color: transparent;
+		// border-bottom: 3px solid rgba(255,255,255,1);
+		color: #87CEFA;
+		font-weight: 500;
+		display: block;
+		letter-spacing: 0;
+		outline: none;
+		padding: 0 20px;
+		text-decoration: none;
+		-webkit-transition: all 0.2s ease-in-out;
+    -webkit-font-smoothing: antialiased;
+		-moz-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
+	}
+
+}
+
+//-- tab end
+
+//-- footer start
+.footer{
+  padding: 20px 0 20px 0;
+  background-color: #FCE4EC;
+}
+//-- footer end
+
+//-- content test start
+.product-index{
+.card {
+  width: 350px;
+  height: 400px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.card-block{
+  button{
+    border-radius: 0;
+    a{
+      color: white;
+    }
+    a:hover{
+      text-decoration: none;
+    }
+  }
+}
+}
+//-- content test end
+
+//-- table1 start
+.table{
+  th{text-align: center;}
+  td{
+    text-align: center;
+    img{
+      position:relative;
+    }
+  }
+  margin: 0 auto;
+}
+//-- table1 end
+
+//-- button start
+//-- button end
+
+//-- show start
+.show-image{
+  margin-left: 150px;
+}
+//-- show end
